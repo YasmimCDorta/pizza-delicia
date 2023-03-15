@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    font-family: cursive;
+    font-size: 22px;
+}
+header{
+    background-color: darkred;
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Trebuchet MS';
+    font-size: 52px;
+    text-shadow: 1px 2px 2px azure;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav{
+    background-color:firebrick ;
+    text-align: center;
+    padding: 2px 0px 5px 0px;
+}
+ nav a{
+    color: blanchedalmond;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+ }
+ nav a:hover{
+    color: darkred ;
+    font-weight: bold;
+ }
+
+ #container{
+   margin:25px ;
+ }
+
+ #cima{
+   display: flex;
+   margin-bottom: 25px;
+ }
+
+.fotos{
+   height: 250px;
+}
+
+#baixo{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 25px;
+}
+
+p {
+   padding: 0 px 6px;
+}
+
+ h1{
+    font-family: 'Trebuchet MS';
+    font-size: 40px;
+    color: brown;
+ }
+
+ footer{
+    background-color: firebrick;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 10px 0px;
+ }
+
+ footer a{
+    color: coral;
+    text-decoration: none;
+ }
+
+ footer a:hover{
+    color: blanchedalmond;
+ }
+  
+ .negrito{
+    font-weight: bold;
+ }
+
+ #dados-contato a{
+    text-decoration: none;
+    color:black;
+ }
+
+ #dados-contato a:hover {
+    font-weight: bold;
+    color: darkred;
+ }
+
+
+#div-linha{
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    width: 1400px;
+    justify-content: space-evenly;
+}
